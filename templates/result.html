@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medication Recommendation Result</title>
+</head>
+<body>
+    <header>
+        <h1>Medication Recommendation Result</h1>
+    </header>
+    <section>
+        <p>Recommended Medication: {{ medication_recommendation }}</p>
+    </section>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+
+    section {
+        max-width: 600px;
+        margin: 2em auto;
+        padding: 1em;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+        margin-bottom: 1em;
+    }
+</style>
