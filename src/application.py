@@ -5,8 +5,8 @@ app = Flask(__name__, template_folder='/Users/anthonandersson/software/mediction
 
 # Function to simulate a machine learning model
 def recommend_medication(patient_id, condition):
-    # Replace this with your actual machine learning logic
-    # For now, we'll use a simple mapping for demonstration
+    # Replace this with NN
+    # For now using a simple mapping for debug
     condition_medication_mapping = {
         'Hypertension': 'Medication_H1',
         'Diabetes': 'Medication_D1',
