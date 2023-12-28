@@ -18,6 +18,8 @@ if X_train.empty or y_train.empty:
     print("Error: Empty data. Check your CSV files.")
     exit()
 
+#The format of the dataset is completely off. Needs a fix
+
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
 
