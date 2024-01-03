@@ -6,8 +6,8 @@ from sklearn.preprocessing import LabelEncoder
 import pandas as pd
 
 # Load the processed data
-X_train = pd.read_csv('/Users/anthonandersson/software/medictionary/data/processed_data/X_train.csv')
-y_train = pd.read_csv('/Users/anthonandersson/software/medictionary/data/processed_data/y_train.csv')
+X_train = pd.read_csv('data/processed_data/X_train.csv')
+y_train = pd.read_csv('data/processed_data/y_train.csv')
 
 # Check the loaded data
 print("X_train shape:", X_train.shape)

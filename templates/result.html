@@ -5,14 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medication Recommendation Result</title>
 </head>
-<body>
-    <header>
-        <h1>Medication Recommendation Result</h1>
-    </header>
-    <section>
-        <p>Recommended Medication: {{ medication_recommendation }}</p>
-    </section>
-</body>
 </html>
 
 <style>
@@ -43,3 +35,20 @@
         margin-bottom: 1em;
     }
 </style>
+</head>
+<body>
+    <header>
+        <h1>Medication Recommendation Result</h1>
+    </header>
+    <section>
+        <p>Recommended Medication: {{ medication_recommendation }}</p>
+
+        <!-- Add navigation links -->
+        <div>
+            <a href="/">Home</a> <!-- Link to the main page -->
+            <a href="/register">Register</a> <!-- Link to the registration page -->
+            <!-- Add more links as needed -->
+        </div>
+    </section>
+</body>
+</html>
